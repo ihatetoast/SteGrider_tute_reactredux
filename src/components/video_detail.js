@@ -1,8 +1,9 @@
 import React from 'react';
 
 const VideoDetail = ({video}) => {
+  //catch:
   if(!video){
-    return <div> loading ... </div>;
+    return <div>loading ... </div>;
   }
     console.log(video);
     const videoId = video.id.videoId;
